@@ -41,9 +41,59 @@ header{
     align-items: center;
     gap: 60px;
 }
-.navigation ul li a {
+.navigation ul li a{
     color: white;
     font-size: 12px;
     line-height: 19px;
     font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+.navigation ul li a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+}
+.buttons-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    gap: 12px;
+}
+.btn-demo {
+    background-color: white;
+    color: #5932EA;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+}
+.btn-acc {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.btn-demo,
+.btn-acc {
+    transition: all 0.3s ease;
+}
+.btn-demo:hover {
+    background-color: #4020c9; 
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+}
+.btn-acc:hover {
+    background-color: white;
+    color: #5932EA;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
 }
