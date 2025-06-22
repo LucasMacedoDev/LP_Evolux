@@ -97,3 +97,202 @@ header{
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transform: translateY(-2px);
 }
+/*CSS do Body*/
+.hero {
+    padding: 100px 20px 60px;
+    text-align: center;
+    background: linear-gradient(to bottom, #f0ecff, #ffffff);
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.linha-roxa {
+    width: 250px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.hero-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.hero-form input[type="email"] {
+    padding: 12px 20px;
+    font-size: 14px;
+    border: 1px solid #5932EA;
+    border-radius: 8px;
+    width: 250px;
+}
+
+.info {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.info p {
+    font-size: 16px;
+    color: #333;
+}
+.hover-purple {
+  color: black;
+  transition: color 0.3s ease;
+  cursor: default;
+}
+
+.hover-purple:hover {
+  color: #5932EA;
+}
+/*Botão "solicitar_demostração"*/
+.btn-solicitar_demostração {
+    background-color: #5932EA;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+}
+/*IMG vendas*/
+.imagem-vendas {
+  margin-top: 40px; /* aqui está o espaçamento que você quer! */
+  text-align: center;
+}
+/*Benefícios*/
+.benefits {
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.benefits h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.benefits p {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  background-color: #e2d7ff;
+  border-radius: 24px;
+  padding: 32px 24px;
+  width: 250px;
+  text-align: center;
+  color: #5e30e4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 40px;
+  margin-bottom: 16px;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #4c4c4c;
+  line-height: 1.4;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+/*Benefícios 2*/
+.eficiencia-inovacao {
+  text-align: center;
+  padding: 100px 40px;
+}
+
+.eficiencia-inovacao h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.eficiencia-inovacao p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.cards-inovacao {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.cards-inovacao .card {
+  background-color: #2e0a84;
+  color: #e1dfff;
+  border-radius: 24px;
+  padding: 32px 24px;
+  width: 250px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cards-inovacao .card img {
+  width: 40px;
+  margin-bottom: 16px;
+}
+
+.cards-inovacao .card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #d3bfff;
+}
+
+.cards-inovacao .card p {
+  font-size: 14px;
+  color: #eae6ff;
+  line-height: 1.4;
+}
+
+.cards-inovacao .card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
+}
