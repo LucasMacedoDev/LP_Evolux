@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     question.addEventListener('click', () => {
       item.classList.toggle('open');
-      toggleBtn.textContent = item.classList.contains('open') ? '˄' : '⌄';
+      toggleBtn.textContent = item.classList.contains('open') ? '▼' : '▼';
     });
   });
 });
