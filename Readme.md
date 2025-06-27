@@ -48,6 +48,10 @@ Criar uma presença digital profissional para a plataforma Evolux360, com foco e
 
 ---
 
+## 🔗 Acesse o Projeto Online
+
+[![Ver Online](https://img.shields.io/badge/Acessar%20Site-LP%20Evolux-blue?style=for-the-badge)](https://lucasmacedodev.github.io/LP_Evolux/)
+
 ## 💻 Como Usar
 
 1. Clone este repositório:
