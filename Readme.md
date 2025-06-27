@@ -24,20 +24,20 @@ O Evolux360 é um site informativo com múltiplas seções, incluindo:
 
 ---
 
-## 📂 Estrutura de Pastas
-
 📁 evolux360/
-├── src/
-|   ├── icon/
-|   ├── img/
-|   ├── script
-|   |   └── faq.js 
-│   ├── style
-|   |    └── style.css|
-|   ├──index.html
+├── docs/
+│   ├── src/
+│   │   ├── icon/
+│   │   ├── img/
+│   │   ├── script/
+│   │   │   └── faq.js
+│   │   └── style/
+│   │       └── style.css
+│   ├── index.html
 ├── .gitattributes
 ├── LICENSE
-├── Readme.md
+├── README.md
+
 
 
 ---
